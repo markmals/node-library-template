@@ -1,9 +1,4 @@
-# packageName
-
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![Github Actions][github-actions-src]][github-actions-href]
-[![Codecov][codecov-src]][codecov-href]
+# Lib Name
 
 > Package description
 
@@ -13,47 +8,21 @@ Install package:
 
 ```sh
 # npm
-npm install packageName
+npm install lib-name
 
 # yarn
-yarn add packageName
+yarn add lib-name
 
 # pnpm
-pnpm install packageName
+pnpm install lib-name
 ```
 
 Import:
 
-```js
-// ESM
-import { } from 'packageName'
-
-// CommonJS
-const { } = require('packageName')
+```ts
+import { } from 'lib-name'
 ```
-
-## 💻 Development
-
-- Clone this repository
-- Enable [Corepack](https://github.com/nodejs/corepack) using `corepack enable` (use `npm i -g corepack` for Node.js < 16.10)
-- Install dependencies using `pnpm install`
-- Run interactive tests using `pnpm dev`
 
 ## License
 
-Made with 💛
-
 Published under [MIT License](./LICENSE).
-
-<!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/packageName?style=flat-square
-[npm-version-href]: https://npmjs.com/package/packageName
-
-[npm-downloads-src]: https://img.shields.io/npm/dm/packageName?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/packageName
-
-[github-actions-src]: https://img.shields.io/github/workflow/status/unjs/packageName/ci/main?style=flat-square
-[github-actions-href]: https://github.com/unjs/packageName/actions?query=workflow%3Aci
-
-[codecov-src]: https://img.shields.io/codecov/c/gh/unjs/packageName/main?style=flat-square
-[codecov-href]: https://codecov.io/gh/unjs/packageName
