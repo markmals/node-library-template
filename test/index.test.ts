@@ -1,15 +1,16 @@
-import { describe, expect, it } from "vitest";
-import { testFunction } from "../src";
+import { describe, expect, test } from "vitest"
+import { testFunction } from "../src"
 
-describe("packageName", () => {
-    const tests = [
+describe("package name", () => {
+    let data = [
         { input: "foo", output: "Hello foo" },
         { input: "bar", output: "Hello bar" },
-    ];
+    ]
 
-    for (const test of tests) {
-        it(test.input, () => {
-            expect(testFunction(test.input)).eq(test.output);
-        });
+    for (let datum of data) {
+        test(`testFunction augments ${datum.input}`, () => {
+            let result = testFunction(datum.input)
+            expect(result).toEqual(datum.output)
+        })
     }
-});
+})

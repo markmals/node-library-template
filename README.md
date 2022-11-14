@@ -1,28 +1,26 @@
-# Lib Name
+# Package Name
 
-> Package description
+Package description
 
-## Usage
-
-Install package:
+## Installation
 
 ```sh
 # npm
-npm install lib-name
+npm install package
 
 # yarn
-yarn add lib-name
+yarn add package
 
 # pnpm
-pnpm install lib-name
+pnpm install package
 ```
 
-Import:
+## Usage
 
-```ts
-import { } from 'lib-name'
+```typescript
+import {} from "package"
 ```
 
 ## License
 
-Published under [MIT License](./LICENSE).
+Published under the [MIT License](./LICENSE).

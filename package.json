@@ -1,8 +1,8 @@
 {
-    "name": "lib-name",
+    "name": "package-name",
     "version": "0.0.0",
     "description": "",
-    "repository": "markmals/lib-name",
+    "repository": "markmals/package-name",
     "license": "MIT",
     "sideEffects": false,
     "type": "module",
@@ -18,8 +18,8 @@
         "dist"
     ],
     "scripts": {
-        "dev": "vitest dev",
         "build": "unbuild",
+        "dev": "vitest dev",
         "test": "vitest run",
         "prepack": "unbuild",
         "release": "npm run build && np"
@@ -34,7 +34,7 @@
     "prettier": {
         "printWidth": 100,
         "tabWidth": 4,
-        "semi": true,
+        "semi": false,
         "arrowParens": "avoid"
     },
     "np": {
