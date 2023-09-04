@@ -7,12 +7,6 @@ Package description
 ```sh
 # npm
 npm install package
-
-# yarn
-yarn add package
-
-# pnpm
-pnpm install package
 ```
 
 ## Usage
